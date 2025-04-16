@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css" />
     <link rel="icon" type="image/svg" href="./media/bx-code-block.svg" />
+    <script src="scripts.js"></script>
     <title>Programming Challenges Page- Home</title>
 </head>
 
@@ -129,6 +130,31 @@
                 </div>
             </div>
         </div>
+        <!--Random number created by the program inside of a script tag.-->
+        <script>
+            let random=Math.floor(Math.random()*100);
+        </script>
+        <!--We will create a div that will contain all the elements of the game (texts, inputs, etc.)-->
+        <div class="subscribe">
+            <!--Inside of this, we will create the title of the section, using again 
+            previous styles that we've used.-->
+            <h2 class="crewtitle">An additional challenge for you!</h2>
+            <!--A subtitle to notify to the user that have to type a number between 0 and 100 to guess.-->
+            <label for="number">Type a number between 0 and 100. Try to guess the number!</label>
+            <!--We've created here the form to receive the number typed by the user and the button to send the
+            information.-->
+            <!--If you see carefully, in action we have this code. That means,
+            when the user click in the button, will execute the JavaScript
+        function guessNumber (this function will receive two parameters: the number typed by
+        the user and the random number, generated above.)-->
+            <form action="javascript:guessNumber(number.value, random)" method="post">
+                <input type="number" id="number" name="number"/>
+                <input class="subscribebutton" type="submit" name="guess" value="Guess now!"/>
+            </form>
+            <!--This is the paragraph that will say something if the user guessed the number or not.-->
+            <p id="answer"></p>
+            
+        </div>
         <div class="mycrew" id="crew">
             <h2 class="crewtitle">Meet our Crew</h2>
             <div class="cardcrew">
@@ -145,6 +171,27 @@
                 <button class="contributebutton" onclick="location.href='Contribute.html'">More information
                     here</button>
             </div>
+        </div>
+        <!--We will create a div that will contain the subscription section.-->
+        <div class="subscribe">
+            <!--Inside of this, we will create the title of the section, using again 
+            previous styles that we've used.-->
+            <h2 class="crewtitle">Do you want more information about our project?</h2>
+            <!--A subtitle to notify to the user that here can send a subscription form.-->
+            <h4>Type your email to subscribe and get full access to your content!</h4>
+            <!--We've created here the form to receive the mail and the button to send the
+            information.-->
+            <!--If you see carefully, in action we have this code. That means,
+            when the user click in the button, will execute the JavaScript
+        function sendMail, and inside, we will put the mail that we've typed in the
+    input.-->
+            <form action="javascript:sendMail(name.value)" method="post">
+                <input type="email" name="email" placeholder="mail@example.com"/>
+                <input class="subscribebutton" type="submit" name="send_mail" value="Send"/>
+            </form>
+            <!--This is the paragraph that will say something if the email was sent
+            successfully.-->
+            <div class="mailconfirmation"><p id="mailsuccess"></p></div>
         </div>
         <footer>
 

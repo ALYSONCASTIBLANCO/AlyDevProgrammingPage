@@ -189,5 +189,40 @@ input{
     display: flex;
     justify-content: right;
 }
-
-
+.subscribe{
+    margin: 1%;
+    text-align: center; 
+}
+/*This is the selector for the container subscribe.*/
+.subscribe form {
+/*Display flex to adapt the contents properly in the screen and
+justify content space around to put the elements one next to the other with
+a space between them.*/
+display: flex;
+justify-content: space-around;
+}
+/*Modifying the input inside of the form*/
+.subscribe form input{
+    width: 30%;
+    height: 1%;
+    padding: 5px 10px 5px 10px;
+}
+/*Editing button inside of the form*/
+.subscribebutton{
+    background-color:#636AE8FF; 
+    color: white;
+    border: none; 
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;    
+}
+/*The confirmation text will be centered.*/
+.mailconfirmation{
+    text-align: center;
+}
+/*The label related to the input of the number will displayed below of the other contents and will hava a margin
+to separate the other elements.*/
+.subscribe label{
+    display: block;
+    margin-bottom: 20px;
+}
