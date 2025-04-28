@@ -29,3 +29,17 @@ function guessNumber(number, random) {
         document.getElementById("answer").innerHTML = "Please, type a valid number.";
     }
 }
+
+//We will initialize here a variable that will access to the elements inside of the banner container.
+var element=document.querySelector(".banner");
+//This is the propoerty that we want to modify.
+element.style.transitionProperty = "opacity";
+//This is the duration of the transition.
+element.style.transitionDuration = "2s";
+//The type of transition that we want to apply.
+element.style.transitionTimingFunction = "ease";
+
+//We will put a delay that will do the transition 100ms after the page initialized.
+setTimeout(() => {
+    element.style.opacity = 1;
+}, 100);

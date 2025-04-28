@@ -63,12 +63,16 @@ a{
 }
 .banner{
     margin: 1%;
-   display: inline-block; 
+   display: inline-block;
+   opacity: 0;
 }
 .bannertext{
     display: inline-block;
     width: 50%;
     vertical-align: top;
+}
+.bannerimage{
+    display: inline-block;
 }
 .bannerimg{
     display: inline-block;
