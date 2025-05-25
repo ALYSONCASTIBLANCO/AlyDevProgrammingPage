@@ -230,3 +230,24 @@ to separate the other elements.*/
     display: block;
     margin-bottom: 20px;
 }
+/*For screens lower than 600px, we will apply the following styles:*/
+@media (max-width: 600px){
+    /*The div that contains the flowcharts will change the global styles
+    like this:*/
+    .greatcontainer{
+        /*The width of this container will have the 80% of the parent 
+        container size.*/
+        width: 80%;
+        /*Display flex to adapt the contents to the screen size.*/
+        display: flex;
+        /*The content, instead to be one next to the other, will be 
+        located one below to the other*/
+        flex-direction: column;
+    }
+    /*The cards that are containing the flowcharts, will have the 
+    width of 100% of the parent container.*/
+    .card{
+        width: 100%;
+    }
+
+}
