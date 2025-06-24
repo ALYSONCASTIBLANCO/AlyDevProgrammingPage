@@ -1,85 +1,48 @@
-# 👩‍💻 AlyDevProgrammingPage
+# 💻 AlyDev Programming Page
 
-**AlyDevProgrammingPage** is a work-in-progress educational project designed for **High School students** learning the fundamentals of programming and web development.
-
-🔗 **Live Preview**  
-[https://alysoncastiblanco.github.io/AlyDevProgrammingPage/myfirstpage.html](https://alysoncastiblanco.github.io/AlyDevProgrammingPage/myfirstpage.html)
+Welcome to the **AlyDev Programming Page**!  
+This is an educational front-end project created by **Alyson Castiblanco** for High School students to practice and explore basic concepts of web development.
 
 ---
 
-## 🎯 Purpose
+## 🌐 Live Demo
 
-This page serves as:
-
-- A **reference template** for students learning HTML, CSS, and basic structure.
-- An **educational sandbox** where elements can be tested and modified freely.
-- A **starting point** to understand tags, styles, layout, and static content.
+🔗 [Visit the live site](https://alysoncastiblanco.github.io/AlyDevProgrammingPage/myfirstpage.html)
 
 ---
 
-## 🧠 Audience
+## 🧾 Project Overview
 
-- 👥 **High School students (Grades 9–11)**
-- 🎓 Beginners in web programming
-- 💡 Teachers looking for simple, adaptable examples
+This repository showcases a simple yet meaningful prototype that includes:
 
----
-
-## 🛠️ Technologies Used
-
-- **HTML5**
-- **CSS3**
-- (Optional future upgrades may include JS and frameworks)
+- Responsive layout
+- Semantic HTML5
+- Basic JavaScript for interactivity
+- Flowchart cards and login prototype
+- Educational content structure
 
 ---
 
-## 📁 Project Structure
-
+## 📁 File Structure
 ```
-AlyDevProgrammingPage/
-├── myfirstpage.html # First sample webpage
-├── css/ # Styling (optional or upcoming)
-├── assets/ # Educational images, icons, media
-└── README.md
-
+📁 .vscode/ → VS Code editor settings (optional)
+📁 media/ → Images and multimedia content
+📄 myfirstpage.html → Main homepage with educational content
+📄 Contribute.html → Contribution guidelines or message
+📄 Login.html → Simple login interface prototype
+📄 styles.css → Custom styling for the entire page
+📄 scripts.js → JavaScript for banner transitions
+📄 README.md → Project documentation (this file)
 ```
+## 📌 Project Status
+### 🟢 Active — In Progress
+This is a growing educational resource. More updates and sections may be added over time to support learning goals.
 
+## 👩‍🏫 Author
+### Alyson Castiblanco
+Front-end enthusiast, educator, and mentor
+🖇️ GitHub: @ALYSONCASTIBLANCO
 
----
-
-## 📘 Educational Goals
-
-- Understand the basic structure of an HTML document
-- Practice organizing content with tags like `header`, `section`, `footer`
-- Learn to use CSS for layout and styling
-- Encourage exploration, editing, and creativity
-
----
-
-## 🚧 Status
-
-- 🚧 In development
-- ✅ First draft live
-- ✏️ Content and styling to be expanded
-
----
-
-## 🤝 Contributing
-
-This project is for educational use. Contributions or feedback from teachers, students, or fellow developers are always welcome!
-
----
-
-## 👤 Author
-
-**Alyson Castiblanco**  
-Tech Educator & Developer  
-✉️ castiblanco.castaneda.alyson.val@gmail.com  
-🌐 [jinndo.co](https://jinndo.co)
-
----
-
-## 📄 License
-
-This project is open for educational use only.  
-Do not use for commercial purposes without permission.
+## 📜 License
+This project is for educational and non-commercial purposes.
+Feel free to fork and build upon it with attribution. 🙌
